@@ -3,3 +3,115 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+   .facebook-style-btn{
+        padding: 0.35rem 0.6rem;
+        border-radius: 1px;
+        text-align: center;
+        
+   }
+   .facebook-style-dark{
+       background: #3274A7;
+       color: #fff;
+       border:none;
+       font-size: smaller;
+   }
+   .facebook-style-dark:hover{
+       background: #1a4261;
+   }
+   .facebook-style-light{
+       border: solid 0.5px gray;
+       color: gray;
+       background: white;
+   }
+   .facebook-style-light:hover{
+       background-color: rgb(223, 217, 217);
+   }
+
+   .btn-3d-1{
+    padding: 0.6rem 1rem;
+    font-size: 1.5rem;
+    background-color:#3274A7 ;
+    border: none;
+    color: white;
+    box-shadow: -6px 6px 0px #0a2235;
+    position: relative;
+}
+   .btn-3d-1:hover{
+       background-color:#285e88 ;
+   }
+   .btn-3d-1:active{
+       outline: none;
+        left: -3px;
+        top: 3px;
+        border: none;
+        box-shadow: -3px 3px 0  #0a2235;
+   }
+   .btn-3d-1:focus{
+      
+       outline: none;
+   }
+   .btn-3d-1::before{
+       border: 6px solid transparent;
+       border-right-color:  #0a2235;
+       border-left-width: 0px;
+       content: "";
+        position: absolute;
+     
+        top: 0px;
+        left: -6px;
+        height: 0;
+        width: 0;
+        display: block;
+    }
+.btn-3d-1::after{
+
+    border: 6px solid transparent;
+    border-top-color:  #0a2235;
+    border-bottom-width: 0px;
+    content: "";
+     position: absolute;
+  
+     bottom: -6px;
+     right: 0px;
+     height: 0;
+     width: 0;
+     display: block;
+
+}
+
+    .btn-3d-1:active::after{
+        border-width: 3px;
+        
+    
+    }
+
+    .btn-3d-1:active::before{
+        border-width: 3px;
+        
+    }
+
+    .btn-3d-2{
+        background-color: rgb(206, 13, 13) ;
+        font-size: 1.25em;
+        padding: 2.55rem 1.5rem;
+        border-radius: 100%;
+        border: 0.5px solid rgb(12, 11, 11);
+        color: white;
+        box-shadow: 0 8px 0px rgb(100, 5, 5) ;
+        position: relative;
+        z-index: 4;
+    }
+    .btn-3d-2:focus{
+        outline: none;
+    }
+    .btn-3d-2:hover{
+        background-color:rgb(179, 5,5) ;
+    }
+
+    .btn-3d-2:active{
+        
+        top: 3px;
+        box-shadow: 0 5px 0 rgb(100, 5, 5);
+
+    }
